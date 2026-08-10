@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 
-//== Ex4_Calcule o pagamento de comiss„o de vendedores, levando-se em consideraÁ„o que sua comiss„o ser· de 5% do total da venda, o usu·rio ira informar o valor total da venda.
-int total;
-int comissao;
+//== Ex4_Calcule o pagamento de comiss√£o de vendedores, levando-se em considera√ß√£o que sua comiss√£o ser√° de 5% do total da venda, o usu√°rio ira informar o valor total da venda.
+float total;
+float comissao;
 float porcentagem = 0.05;
 
 main(){
 	printf("\nDigite o valor total das vendas: \n");
-	scanf("%d" , &total);
+	scanf("%f" , &total);
 	comissao = total * porcentagem;
-	printf("\nO valor total da comissao e: %d" , comissao);
+	printf("\nO valor total da comissao e: R$ %.2f" , comissao);
 }
