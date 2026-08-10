@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-//== Ex4_Calcule o pagamento de comiss√£o de vendedores, levando-se em considera√ß√£o que sua comiss√£o ser√° de 5% do total da venda, o usu√°rio ira informar o valor total da venda.
+//== Ex4_Calcule o pagamento de comiss„o de vendedores, levando-se em consideraÁ„o que sua comiss„o ser· de 5% do total da venda, o usu·rio ira informar o valor total da venda.
 float total;
 float comissao;
 float porcentagem = 0.05;
