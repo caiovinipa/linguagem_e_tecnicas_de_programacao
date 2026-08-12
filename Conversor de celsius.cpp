@@ -4,6 +4,6 @@ main(){
 	float celsius, fahrenheit, valor;
 	printf("Digite a temperatura em celsius: ");
 	scanf("%f", &celsius);
-	fahrenheit = 9 * celsius + 160;
-	printf("\nO valor em fahrenheit sera: %.1f", fahrenheit );
+	fahrenheit = celsius * 1.8 + 32;
+	printf("\nO valor em fahrenheit sera: %.0fF", fahrenheit );
 }
