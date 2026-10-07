@@ -1,5 +1,5 @@
 #include<stdio.h>
-int numero, maior, menor, tabuada;
+int numero, tabuada;
 main(){
 	
 	printf("Digite um numero: ");
